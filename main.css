@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.container {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 100%;
+    background-color: #fff;
+}
+.left-rail {
+    position: absolute;
+    width: 318px;
+    height: 1888px;
+    left: 0px;
+    top: 0px;
+    background-color: #ccc;
+}
+.right-rail {
+    position: absolute;
+    width: 318px;
+    height: 1188px;
+    left: 1122px;
+    top: 3px;
+    background-color: #ccc;
+}
+.avatar {
+    position: absolute;
+    width: 800px;
+    height: 330px;
+    left: 320px;
+    top: 111px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+.avatar img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+}
+.hero {
+    position: absolute;
+    width: 208px;
+    height: 212px;
+    left: 385px;
+    top: 334px;
+    background-color: #333;
+}
+.header {
+    position: absolute;
+    width: 800px;
+    height: 111px;
+    left: 319px;
+    top: 0px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    line-height: 111px;
+    font-size: 24px;
+}
+
+/* Add responsive styles */
+@media only screen and (max-width: 1440px) {
+    .container {
+        max-width: 1180px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        max-width: 940px;
+    }
+    .left-rail {
+        height: 1288px;
+    }
+    .right-rail {
+        display: none;
+    }
+    .avatar {
+        position: static;
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .hero {
+        position: static;
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .header {
+        position: static;
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .left-rail {
+        position: static;
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .avatar {
+        position: static;
+    
