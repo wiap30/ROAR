@@ -1,0 +1,20 @@
+* {
+    background-color: black;
+    color: #ffffff;
+}
+
+
+
+  button {
+    box-sizing: border-box;
+    position: absolute;
+    width: 240px;
+    height: 37px;
+    left: 1075px;
+    top: 349px;
+
+    background: #ffffff;
+    border: 2px solid #ffc700;
+    border-radius: 64px;
+    color: black;
+}
