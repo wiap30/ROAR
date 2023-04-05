@@ -1,11 +1,11 @@
-* {
+*{
     background-color: black;
     color: #ffffff;
 }
 
 
 
-  button {
+  #google {
     box-sizing: border-box;
     position: absolute;
     width: 240px;
@@ -17,4 +17,32 @@
     border: 2px solid #ffc700;
     border-radius: 64px;
     color: black;
+}
+
+#apple {
+    box-sizing: border-box;
+    position: absolute;
+    width: 240px;
+    height: 37px;
+    left: 1075px;
+    top: 403px;
+    background: #ffffff;
+    border: 2px solid #ffc700;
+    border-radius: 64px;
+    color: black;
+}
+
+#create {
+    box-sizing: border-box;
+    position: absolute;
+    width: 240px;
+    height: 37px;
+    left: 1075px;
+    top: 457px;
+    background: #ffffff;
+    border: 2px solid #ffc700;
+    border-radius: 64px;
+    color: black;
+    
+
 }
