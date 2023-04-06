@@ -46,3 +46,41 @@
     
 
 }
+
+/*login*/
+
+
+/*Ready to Roar?*/
+#right-roar {
+    position: absolute;
+    width: 213px;
+    height: 29px;
+    left: 1081px;
+    top: 271px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #f2f2f2;
+}
+
+#right-signup {
+    position: absolute;
+    width: 200px;
+    height: 14px;
+    left: 1081px;
+    top: 310px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /*identical to box height*/
+
+    color: #f2f2f2;
+}
+
