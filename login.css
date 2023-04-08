@@ -1,6 +1,29 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+
+  
+
+
 *{
     background-color: black;
     color: #ffffff;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /*variables*/
+    --bg-main: black;
+    font-family: 'Roboto';
+
 }
 
 #rectangle {
@@ -16,7 +39,8 @@
     background: #333333;
     border: 1px solid #000000;
     border-radius: 4px;
-    opacity: 70%;
+    opacity: 50%;
+    /*z-index: -1;*/
 }
 
 #title {
@@ -29,7 +53,7 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 48px ;
     line-height: 72px;
     /*identical to box height*/
     letter-spacing: -0.33px;
@@ -131,6 +155,9 @@
     line-height: 35px;
 
     color: #f2f2f2;
+    padding: 0;
+    margin: 0;
+
 }
 
 #right-signup {
@@ -150,17 +177,203 @@
     color: #f2f2f2;
 }
 
-#rectangle {
-    /*Rectangle 31*/
-   /* box-sizing: border-box;
-
+#circle {
     position: absolute;
-    width: 300px;
-    height: 328px;
-    left: 1042px;
-    top: 252px;
+    left: 13.36%;
+    right: 75.69%;
+    top: 32.61%;
+    bottom: 51.77%;
 
-    background: #333333;
-    border: 1px solid #000000;
-    border-radius: 4px;
-}*/
+    border-radius: 360px;
+    width: 200px;
+    height: 200px;
+
+    background: #0f1529;
+}
+
+#crown {
+    position: absolute;
+    left: 15.07%;
+    right: 77.4%;
+    top: 37.25%;
+    bottom: 56.41%;
+
+    background: #ffc700;
+
+    width: 109.31px;
+    height: 64.59px;
+    top: 379.2px;
+    left: 218.84px;
+
+}
+
+@media screen and (max-width: 768px) {
+    #crown {
+       position: absolute;
+       left: 39.41%;
+       right: 39.17%;
+       top: 11.73%;
+       bottom: 81.15%;
+       
+       
+       
+         width: 88.69px;
+        height: 52.41px;
+        top: 86.3px;
+        left: 163.16px;
+
+    }
+
+    #circle {
+        position: absolute;
+        left: 34.54%;
+        right: 34.3%;
+        top: 6.52%;
+        bottom: 75.95%;
+
+        background-color: #0f1529;
+
+        width: 129px;
+        height: 129px;
+        top: 48px;
+        left: 143px;
+    }
+    
+    #right-signup {
+        position: absolute;
+        width: 200px;
+        height: 14px;
+        left: 96px;
+        top: 410px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+
+        color: #f2f2f2;
+    }
+
+    #right-roar {
+        position: absolute;
+        width: 213px;
+        height: 29px;
+        left: 96px;
+        top: 371px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 35px;
+
+        color: #f2f2f2;
+    }
+
+    #terms {
+        position: absolute;
+        width: 228px;
+        height: 46px;
+        left: 96px;
+        top: 613px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+
+        color: #f2f2f2;
+    }
+
+    #title {
+        position: absolute;
+        left: 30.68%;
+        right: 52.17%;
+        top: 33.42%;
+        bottom: 60.46%;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 45px;
+
+        letter-spacing: -0.33px;
+
+        color: #ffffff;
+        
+    }
+
+    #slogan {
+        position: absolute;
+        left: 30.68%;
+        right: 31.88%;
+        top: 39.27%;
+        bottom: 57.07%;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: -0.33px;
+
+        color: #ffffff;
+
+    }
+
+    #rectangle {
+        position: absolute;
+        width: 300px;
+        height: 328px;
+        left: 57px;
+        top: 352px;
+        z-index: 0;
+        opacity: 40%;
+
+
+    }
+
+    #google {
+        box-sizing: border-box;
+        position: absolute;
+        width: 240px;
+        height: 37px;
+        left: 90px;
+        top: 449px;
+
+        background: #ffffff;
+        border: 2px solid #ffc700;
+        border-radius: 64px;
+    }
+
+    #apple {
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 240px;
+        height: 37px;
+        left: 90px;
+        top: 503px;
+
+        background: #ffffff;
+        border: 2px solid #ffc700;
+        border-radius: 64px;
+    }
+
+    #create {
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 240px;
+        height: 37px;
+        left: 90px;
+        top: 557px;
+
+        background: #ffffff;
+        border: 2px solid #ffc700;
+        border-radius: 64px;
+    }
+}

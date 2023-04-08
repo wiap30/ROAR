@@ -1,7 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+
+
+
+
+:root {
+/*variables*/
+--bg-main: #000000;
+--main-text: #ffffff;
+--gold: #ffc700;
+--gray: #444f5a;
+
+
+
+
+
+
+
+}
+
+
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .container {
     position: relative;
@@ -16,7 +40,7 @@ body {
     height: 1888px;
     left: 0px;
     top: 0px;
-    background-color: #ccc;
+    background-color: var(--bg-main);
 }
 .right-rail {
     position: absolute;
@@ -24,7 +48,8 @@ body {
     height: 1188px;
     left: 1122px;
     top: 3px;
-    background-color: #ccc;
+    background-color: var(--bg-main);
+    order: -1;
 }
 .avatar {
     position: absolute;
@@ -43,10 +68,10 @@ body {
 }
 .hero {
     position: absolute;
-    width: 208px;
-    height: 212px;
-    left: 385px;
-    top: 334px;
+    width: 800px;
+    height: 330px;
+    left: 320px;
+    top: 111px;
     background-color: #333;
 }
 .header {
@@ -55,11 +80,13 @@ body {
     height: 111px;
     left: 319px;
     top: 0px;
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    line-height: 111px;
-    font-size: 24px;
+    background-color: var(--bg-main);
+    color: var(--main-text);
+    
+}
+
+.footer {
+
 }
 
 /* Add responsive styles */
