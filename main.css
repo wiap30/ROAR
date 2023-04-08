@@ -13,12 +13,6 @@
 --gold: #ffc700;
 --gray: #444f5a;
 
-
-
-
-
-
-
 }
 
 
@@ -43,9 +37,10 @@ body {
     background-color: var(--bg-main);
 }
 .right-rail {
+    
     position: absolute;
     width: 318px;
-    height: 1188px;
+    height: 1888px;
     left: 1122px;
     top: 3px;
     background-color: var(--bg-main);
@@ -53,19 +48,21 @@ body {
 }
 .avatar {
     position: absolute;
-    width: 800px;
-    height: 330px;
-    left: 320px;
-    top: 111px;
+    width: 208px;
+    height: 212px;
+    left: 385px;
+    top: 334px;
     background-color: #f2f2f2;
     text-align: center;
 }
-.avatar img {
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    margin-top: 50px;
-}
+/*.avatar img {
+    position: absolute;
+    ;
+    width: 208px;
+    height: 212px;
+
+    background: #ffffff;
+}*/
 .hero {
     position: absolute;
     width: 800px;
@@ -73,6 +70,7 @@ body {
     left: 320px;
     top: 111px;
     background-color: #333;
+    z-index: -1;
 }
 .header {
     position: absolute;
@@ -84,13 +82,84 @@ body {
     color: var(--main-text);
     
 }
+.header-arrow {
+    position: absolute;
+    left: 24.65%;
+    right: 73.26%;
+    top: 1.69%;
+    bottom: 96.72%;
+    border: 4px;
+    background: #FFFFFF;
+    width: 30px;
+    height: 30.02px;
+    top: 32.02;
+    left: 355px;
+}
+
+.header-text {
+    position: absolute;
+    width: 256px;
+    height: 42px;
+    left: 410px;
+    top: 23px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+.left-rail-crown {
+    position: absolute;
+    height: 60px;
+    left: 3.47%;
+    right: 92.36%;
+    top: 31px;
+    background: #ffc700;
+}
+
+.left-rail-explore {
+    position: absolute;
+    width: 142px;
+    height: 36px;
+    left: 88px;
+    top: 141px;
+
+    color: #ffffff;
+    border: 2px;
+
+    font-family: 'Inter' , sans-serif;
+
+    font-size: 30px;
+    line-height: 36.31px;
+    font-weight: 600;
+}
+
+.settings {
+    position: absolute;
+    width: 122px;
+    height: 36px;
+    left: 88px;
+    top: 227px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+}
+
 
 .footer {
 
 }
 
 /* Add responsive styles */
-@media only screen and (max-width: 1440px) {
+/*@media only screen and (max-width: 1440px) {
     .container {
         max-width: 1180px;
     }
@@ -142,4 +211,5 @@ body {
     }
     .avatar {
         position: static;
+        */
     
