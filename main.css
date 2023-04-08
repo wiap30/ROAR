@@ -153,7 +153,135 @@ body {
     color: #FFFFFF;
 }
 
+/*This section is for the post section*/
 
+.roar-post {
+    position: absolute;
+    width: 707px;
+    height: 684px;
+    left: 380px;
+    top: 832px;
+    background: #000000;
+
+}
+.mask-group {
+    position: absolute;
+    width: 111.99px;
+    height: 111.99px;
+    left: 380px;
+    top: 834px;
+    background: #ffc700;
+
+}
+
+.jazmyne {
+    position: absolute;
+    width: 123px;
+    height: 35px;
+    left: 511px;
+    top: 832px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #FFFFFF;
+}
+
+.icon-verify {
+    position: absolute;
+    width: 20px;
+    height: 20.01px;
+    left: 642px;
+    top: 839.44px;
+    background: #ffc700;
+}
+.checkout{
+    position: absolute;
+    width: 429px;
+    height: 21px;
+    left: 511px;
+    top: 907px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+/* identical to box height */
+
+    letter-spacing: -0.3px;
+
+    color: #FFFFFF;
+}
+.jazzy {
+    position: absolute;
+    width: 70px;
+    height: 23px;
+    left: 670px;
+    top: 838px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #C4C4C4;
+     
+}
+.date-posted {
+    position: absolute;
+    width: 138px;
+    height: 23px;
+    left: 760px;
+    top: 838px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #C4C4C4;
+
+}
+
+.handle {
+    position: absolute;
+    width: 103px;
+    height: 21px;
+    left: 511px;
+    top: 873px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+/* identical to box height */
+
+    letter-spacing: -0.3px;
+
+    color: #FFC700;
+
+}
+.follow{
+    position: absolute;
+    width: 165px;
+    height: 46px;
+    left: 907px;
+    top: 471px;
+    border-radius: 3px;
+    background: #FFC700;
+    font-family: 'Roboto';
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 600;
+    
+}
 .footer {
 
 }
