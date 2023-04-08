@@ -26,6 +26,7 @@
 
 }
 
+
 #rectangle {
     /*Rectangle 31*/
     box-sizing: border-box;
@@ -39,8 +40,8 @@
     background: #333333;
     border: 1px solid #000000;
     border-radius: 4px;
-    opacity: 50%;
-    /*z-index: -1;*/
+    
+    z-index: -1;
 }
 
 #title {
@@ -93,6 +94,7 @@
     line-height: 14px;
 
     color: #f2f2f2;
+    background: #333333;
 }
 
   #google {
@@ -157,6 +159,7 @@
     color: #f2f2f2;
     padding: 0;
     margin: 0;
+    background: #333333;
 
 }
 
@@ -175,6 +178,7 @@
     /*identical to box height*/
 
     color: #f2f2f2;
+    background: #333333;
 }
 
 #circle {
@@ -206,6 +210,7 @@
     left: 218.84px;
 
 }
+
 
 @media screen and (max-width: 768px) {
     #crown {
@@ -253,6 +258,7 @@
         line-height: 14px;
 
         color: #f2f2f2;
+        background: #333333;
     }
 
     #right-roar {
@@ -269,6 +275,7 @@
         line-height: 35px;
 
         color: #f2f2f2;
+        background: #333333;
     }
 
     #terms {
@@ -285,6 +292,7 @@
         line-height: 14px;
 
         color: #f2f2f2;
+        background: #333333;
     }
 
     #title {
@@ -303,6 +311,7 @@
         letter-spacing: -0.33px;
 
         color: #ffffff;
+
         
     }
 
@@ -330,8 +339,8 @@
         height: 328px;
         left: 57px;
         top: 352px;
-        z-index: 0;
-        opacity: 40%;
+        z-index: -1;
+        
 
 
     }
@@ -375,5 +384,8 @@
         background: #ffffff;
         border: 2px solid #ffc700;
         border-radius: 64px;
+
     }
+
+    
 }
