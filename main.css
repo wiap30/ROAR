@@ -3,7 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
 
-
+/*{
+    background-color: #000000;
+}*/
 
 
 :root {
@@ -714,7 +716,249 @@ border: 6px solid #FFC700;
     background: #000000;
  }
 
-.footer {
+ /*Right rail login*/
+ .right-rail-search {
+    box-sizing: border-box;
+
+position: absolute;
+width: 273px;
+height: 37px;
+left: 1144px;
+top: 41px;
+
+background: #444F5A;
+border: 2px solid #FFC700;
+border-radius: 64px;
+ }
+
+ .search-text {
+    position: absolute;
+width: 81px;
+height: 18px;
+left: 1183px;
+top: 51px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #8799A5;
+
+ }
+
+ .search-icon {
+    position: absolute;
+width: 15px;
+height: 15.01px;
+left: 1158px;
+top: 52.03px;
+background: #FFC700;
+ }
+
+ .right-rail-login-container {
+    box-sizing: border-box;
+
+position: absolute;
+width: 278px;
+height: 328px;
+left: 1142px;
+top: 111px;
+
+border: 1px solid #E5E5E5;
+border-radius: 4px;
+ }
+
+ .login-title {
+    position: absolute;
+width: 213px;
+height: 29px;
+left: 1166px;
+top: 130px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 35px;
+
+color: #FFFFFF;
+ }
+
+ .login-signup {
+    position: absolute;
+width: 200px;
+height: 14px;
+left: 1166px;
+top: 169px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+ }
+
+ .login-terms {
+    position: absolute;
+width: 228px;
+height: 46px;
+left: 1166px;
+top: 372px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+
+color: #FFFFFF;
+
+ }
+
+ .google {
+    box-sizing: border-box;
+
+position: absolute;
+width: 240px;
+height: 37px;
+left: 1160px;
+top: 208px;
+
+background: #FFFFFF;
+border: 2px solid #FFC700;
+border-radius: 64px;
+
+
+ }
+
+.google-text {
+    position: absolute;
+width: 133px;
+height: 18px;
+left: 1226px;
+top: 217px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #000000;
+
+ }
+
+.google-icon {
+    position: absolute;
+left: 83.19%;
+right: 15.42%;
+top: 11.42%;
+bottom: 87.52%;
+
+width: 20px;
+height: 20.01px;
+top: 216.11px;
+left: 1198px;
+background: #000000;
+ }
+
+.apple {
+    box-sizing: border-box;
+
+position: absolute;
+width: 240px;
+height: 37px;
+left: 1160px;
+top: 262px;
+
+background: #FFFFFF;
+border: 2px solid #FFC700;
+border-radius: 64px;
+ }
+
+ .apple-icon {
+    position: absolute;
+left: 83.19%;
+right: 15.42%;
+top: 14.45%;
+bottom: 84.66%;
+
+width: 20px;
+height: 16.73px;
+top: 273.42px;
+left: 1198px;
+
+background: #000000;
+ }
+
+ .apple-text {
+    position: absolute;
+width: 124px;
+height: 18px;
+left: 1226px;
+top: 271px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #000000;
+
+ }
+
+ .create {
+    box-sizing: border-box;
+
+position: absolute;
+width: 240px;
+height: 37px;
+left: 1160px;
+top: 316px;
+
+background: #FFFFFF;
+border: 2px solid #FFC700;
+border-radius: 64px;
+ }
+
+ .create-text {
+    position: absolute;
+width: 102px;
+height: 18px;
+left: 1226px;
+top: 325px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #000000;
+ }
+
+
+
+
+
+
+
+ .footer {
 
     
 }
