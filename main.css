@@ -966,6 +966,10 @@ color: #000000;
 /*mobile view*/
 
 @media screen and (max-width: 768px) {
+*{
+    background-color: #000000;
+}
+
 .left-rail {
     position: absolute;
 width: 59px;
@@ -1424,6 +1428,247 @@ color: #C4C4C4;
 
 }
 
+.roar-post {
+    position: absolute;
+width: 317px;
+height: 339px;
+left: 79px;
+top: 447px;
+background: #000000;
+}
+
+.post-pic {
+    position: absolute;
+width: 252px;
+height: 252px;
+left: 144px;
+top: 534px;
+
+background: url(.jpg), #C4C4C4;
+border-radius: 40px;
+
+}
+
+.date-posted {
+    position: absolute;
+width: 83px;
+height: 14px;
+left: 284px;
+top: 454px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+
+color: #C4C4C4;
+
+}
+
+.mask-group {
+    position: absolute;
+width: 70px;
+height: 70px;
+left: 79px;
+top: 447px;
+background: #5F6D79;
+}
+
+.jazmyne {
+    position: absolute;
+width: 62px;
+height: 18px;
+left: 156px;
+top: 452px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.jazzy {
+    position: absolute;
+width: 42px;
+height: 14px;
+left: 238px;
+top: 454px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+
+color: #C4C4C4;
+
+}
+
+.icon-verify {
+    position: absolute;
+width: 12px;
+height: 12px;
+left: 222px;
+top: 456.2px;
+background: #FFC700;
+
+}
+
+.handle {
+    position: absolute;
+width: 68px;
+height: 14px;
+left: 156px;
+top: 472px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+letter-spacing: -0.3px;
+
+color: #FFC700;
+
+}
+
+.checkout {
+    position: absolute;
+width: 191px;
+height: 28px;
+left: 156px;
+top: 489px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: -0.3px;
+
+color: #FFFFFF;
+
+}
+
+.chat-icon {
+    position: absolute;
+    left: 35.99%;
+    right: 59.66%;
+    top: 95.81%;
+    bottom: 2.04%;
+    
+    border: 2px solid #FFFFFF; 
+    background: gold;
+}
+
+.chat-text {
+    position: absolute;
+width: 24px;
+height: 22px;
+left: 174px;
+top: 796px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+background: #000000;
+}
+
+.crown-icon {
+    position: absolute;
+width: 18px;
+height: 18px;
+left: 207px;
+top: 797.63px;
+background: #FFC700;
+}
+
+.crown-text {
+    position: absolute;
+width: 34px;
+height: 22px;
+left: 232px;
+top: 796px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+background: #000000;
+
+}
+
+.heart-icon {
+    position: absolute;
+left: 67.63%;
+right: 28.02%;
+top: 95.57%;
+bottom: 2.28%;
+
+border: 2px solid #FFFFFF;
+background: #FFC700;
+}
+
+.heart-text {
+    position: absolute;
+width: 36px;
+height: 22px;
+left: 306px;
+top: 796px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+background: black;
+}
+
+.share-icon {
+    position: absolute;
+width: 18px;
+height: 18px;
+left: 358px;
+top: 798px;
+background: #FFC700;
+}
+
+.handle-verify {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 162px;
+    top: 307px;
+    background: #FFC700;
+    z-index: 1;     
+}
 
 
     
