@@ -7,6 +7,13 @@
     background-color: #000000;
 }*/
 
+/*desktop*/
+
+@media screen and (min-width: 767px) {
+    
+    main {
+        display: flex;
+    }
 
 :root {
 /*variables*/
@@ -57,6 +64,8 @@ body {
     background-color: #f2f2f2;
     text-align: center;
 }
+
+
 /*.avatar img {
     position: absolute;
     ;
@@ -951,6 +960,476 @@ line-height: 18px;
 
 color: #000000;
  }
+
+}
+
+/*mobile view*/
+
+@media screen and (max-width: 768px) {
+.left-rail {
+    position: absolute;
+width: 59px;
+height: 835px;
+left: 0px;
+top: 0px;
+background: #000000;
+}
+
+.left-rail-crown{
+    position: absolute;
+left: 4.51%;
+right: 90.5%;
+top: 2.97%;
+bottom: 95.57%;
+z-index: 1;
+
+background: #FFC700;
+}
+
+.left-rail-crown-out {
+    position: absolute;
+    left: 3.38%;
+    right: 89.37%;
+    top: 1.9%;
+    bottom: 94.51%;
+    width: 30px;
+    height: 30px;
+    top: 15.88px;
+    left: 14px;
+    background: #0f1529;
+    z-index: 0;
+  
+}
+
+.left-rail-search-icon {
+    /*Explore Icon*/
+    position: absolute;
+left: 5.31%;
+right: 89.86%;
+top: 13.45%;
+bottom: 84.15%;
+
+width: 20px;
+height: 20px;
+top: 112.32px;
+left: 22px;
+background: #f2f2f2;
+}
+
+.left-rail-settings-icon {
+    position: absolute;
+width: 20px;
+height: 20px;
+left: 20px;
+top: 187.19px;
+background: #C4C4C4;
+}
+
+.header {
+    position: absolute;
+width: 355px;
+height: 59px;
+left: 59px;
+top: -1px;
+background: #000000;
+
+}
+
+.header-text{
+    position: absolute;
+width: 107px;
+height: 18px;
+left: 101px;
+top: 16px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #FFFFFF
+}
+
+.header-verify{
+    position: absolute;
+width: 12px;
+height: 12px;
+left: 212px;
+top: 18.56px;
+background-color: #FFC700;
+}
+
+.header-roars {
+    position: absolute;
+left: 24.4%;
+right: 64.49%;
+top: 4.53%;
+bottom: 93.84%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+
+color: #5F6D79;
+
+}
+
+.header-arrow {
+    position: absolute;
+left: 17.87%;
+right: 79.23%;
+top: 2.58%;
+bottom: 95.79%;
+width: 12px;
+height: 13.61px;
+top: 21.56px;
+left: 74px;
+background: #8799A5;
+}
+
+.avatar {
+    position: absolute;
+    width: 102px;
+    height: 102px;
+    left: 86px;
+    top: 174px; 
+    background: #5F6D79;
+    z-index: 1;
+
+}
+
+.hero {
+    position: absolute;
+width: 355px;
+height: 169px;
+left: 59px;
+top: 59px;
+
+background: url(.jpg), #8799A5
+}
+
+.follow {
+    position: absolute;
+width: 77px;
+height: 21.47px;
+left: 320px;
+top: 242px;
+border-radius: 3px;
+background: #FFC700;
+position: absolute;
+font-size: 12px;
+font-weight: 600;
+line-height: 14px;
+font-family: 'Roboto';
+
+
+}
+
+.profile-info {
+    position: absolute;
+width: 311.26px;
+height: 91px;
+left: 86px;
+top: 286px;
+background: #000000;
+}
+
+.profile-name {
+    position: absolute;
+width: 107px;
+height: 18px;
+left: 86px;
+top: 272px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.profile-handle {
+    position: absolute;
+    left: 20.77%;
+    right: 62.08%;
+    top: 36.7%;
+    bottom: 61.4%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    
+    color: #C4C4C4;
+}
+
+.official-account {
+    position: absolute;
+width: 269px;
+height: 14px;
+left: 86px;
+top: 326px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+
+.location {
+    position: absolute;
+    width: 94px;
+    height: 14px;
+    left: 97.17px;
+    top: 344px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF; 
+}
+
+.location-icon {
+    position: absolute;
+width: 8.38px;
+height: 9.5px;
+left: 86px;
+top: 345.74px;
+background: #5F6D79;
+
+}
+
+.profile-link {
+    position: absolute;
+width: 66px;
+height: 14px;
+left: 210.3px;
+top: 344px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+
+color: #FFC700;
+
+}
+
+.link-icon {
+    position: absolute;
+width: 10.3px;
+height: 11.68px;
+left: 197px;
+top: 346px;
+background: #5F6D79;
+}
+
+.profile-joined {
+    position: absolute;
+width: 103px;
+height: 14px;
+left: 294.26px;
+top: 344px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+
+.join-icon {
+    position: absolute;
+left: 67.87%;
+right: 29.8%;
+top: 41.34%;
+bottom: 57.35%;
+background: #5F6D79;
+width: 9.64px;
+height: 10.94px;
+top: 345.18px;
+left: 281px;
+}
+
+.profile-followers {
+    position: absolute;
+width: 73px;
+height: 14px;
+left: 163px;
+top: 362px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.profile-following {
+    position: absolute;
+width: 69px;
+height: 14px;
+left: 86px;
+top: 363px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+
+.tabs {
+    position: absolute;
+    width: 352.16px;
+    height: 20.04px;
+    left: 60.85px;
+    top: 408px;
+    background: #000000;
+
+}
+
+.tab-gold {
+    position: absolute;
+    width: 32px;
+    height: 0px;
+    left: 78px;
+    top: 426px;
+    
+    border: 3px solid #FFC700;
+}
+
+.tab-roars {
+    position: absolute;
+width: 32px;
+height: 14px;
+left: 79px;
+top: 408px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+background: #000000;
+}
+
+.vector1 {
+    position: absolute;
+width: 352.16px;
+height: 0px;
+left: 60.85px;
+top: 428.04px;
+
+border: 1px solid #C4C4C4;
+transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.tab-likes {
+    position: absolute;
+width: 29px;
+height: 14px;
+left: 358.78px;
+top: 408px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+
+color: #C4C4C4;
+
+}
+
+.tab-media {
+    position: absolute;
+width: 34px;
+height: 14px;
+left: 269.53px;
+top: 408px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+
+color: #C4C4C4;
+
+}
+
+.tab-replies {
+    position: absolute;
+width: 40px;
+height: 14px;
+left: 172.62px;
+top: 408px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+
+color: #C4C4C4;
+
+}
+
+
+
+    
+}
+
+
 
 
 
