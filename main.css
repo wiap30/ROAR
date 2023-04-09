@@ -623,95 +623,95 @@ border: 6px solid #FFC700;
 
  .chat-icon {
     position: absolute;
-width: 30px;
-height: 30.02px;
-left: 513px;
-top: 1543.82px;
-background: #000000;
+    width: 30px;
+    height: 30.02px;
+    left: 513px;
+    top: 1543.82px;
+    background: #000000;
  }
 
  .chat-text {
     position: absolute;
-width: 39px;
-height: 36px;
-left: 561px;
-top: 1537px;
+    width: 39px;
+    height: 36px;
+    left: 561px;
+    top: 1537px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 30px;
-line-height: 36px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
 
-color: #FFFFFF;
-background: #000000;
+    color: #FFFFFF;
+    background: #000000;
  }
 
  .crown-icon {
     position: absolute;
-width: 41.25px;
-height: 24.39px;
-left: 688px;
-top: 1543.63px;
-background: #000000;
+    width: 41.25px;
+    height: 24.39px;
+    left: 688px;
+    top: 1543.63px;
+    background: #000000;
  }
 
  .crown-text {
     position: absolute;
-width: 57px;
-height: 36px;
-left: 742px;
-top: 1537px;
+    width: 57px;
+    height: 36px;
+    left: 742px;
+    top: 1537px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 30px;
-line-height: 36px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
 
-color: #FFFFFF;
-background: #000000;
+    color: #FFFFFF;
+    background: #000000;
  }
 
  .heart-icon {
     position: absolute;
-left: 60.62%;
-right: 37.29%;
-top: 81.44%;
-bottom: 16.98%;
-width: 30px;
-height: 30.02px;
-top: 1540.81px;
-left: 873px;
+    left: 60.62%;
+    right: 37.29%;
+    top: 81.44%;
+    bottom: 16.98%;
+    width: 30px;
+    height: 30.02px;
+    top: 1540.81px;
+    left: 873px;
 
-border: 2px solid #FFFFFF;
-background: #000000;
+    border: 2px solid #FFFFFF;
+    background: #000000;
  }
 
  .heart-text {
     position: absolute;
-width: 60px;
-height: 36px;
-left: 920.62px;
-top: 1537px;
+    width: 60px;
+    height: 36px;
+    left: 920.62px;
+    top: 1537px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 30px;
-line-height: 36px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
 
-color: #FFFFFF;
-background: #000000;
+    color: #FFFFFF;
+    background: #000000;
  }
 
  .share-icon {
     position: absolute;
-width: 30px;
-height: 30.02px;
-left: 1046px;
-top: 1540.81px;
-background: #000000;
+    width: 30px;
+    height: 30.02px;
+    left: 1046px;
+    top: 1540.81px;
+    background: #000000;
  }
 
 .footer {
