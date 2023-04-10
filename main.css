@@ -112,7 +112,7 @@ body {
     height: 30.02px;
     top: 29.02px;
     left: 670px;
-    background: #FFC700;
+    
 }
 
 .header-roars {
@@ -153,11 +153,18 @@ body {
 }
 .left-rail-crown {
     position: absolute;
-    height: 60px;
-    left: 3.47%;
-    right: 92.36%;
-    top: 31px;
-    background: #ffc700;
+left: 59.38px;
+right: 15.62%;
+top: 48.81px;
+bottom: 29.69%;
+width: 41.25px;
+height: 24.37px;
+
+
+    
+
+    
+    
 }
 
 .left-rail-explore {
@@ -210,7 +217,7 @@ body {
     height: 111.99px;
     left: 380px;
     top: 834px;
-    background: #ffc700;
+    
 
 }
 
@@ -873,7 +880,7 @@ width: 20px;
 height: 20.01px;
 top: 216.11px;
 left: 1198px;
-background: #000000;
+
  }
 
 .apple {
@@ -902,7 +909,7 @@ height: 16.73px;
 top: 273.42px;
 left: 1198px;
 
-background: #000000;
+
  }
 
  .apple-text {
@@ -976,13 +983,16 @@ background: #000000;
 
 .left-rail-crown{
     position: absolute;
-left: 4.51%;
-right: 90.5%;
-top: 2.97%;
-bottom: 95.57%;
-z-index: 1;
+    left: 4.51%;
+    right: 90.5%;
+    top: 2.97%;
+    bottom: 95.57%;
+    z-index: 1;
+    width: 20.63px;
+    height: 12.19px;
+    
 
-background: #FFC700;
+
 }
 
 .left-rail-crown-out {
@@ -995,7 +1005,7 @@ background: #FFC700;
     height: 30px;
     top: 15.88px;
     left: 14px;
-    background: #0f1529;
+    
     z-index: 0;
   
 }
@@ -1058,7 +1068,7 @@ width: 12px;
 height: 12px;
 left: 212px;
 top: 18.56px;
-background-color: #FFC700;
+background-color: 
 }
 
 .header-roars {
@@ -1469,7 +1479,7 @@ width: 70px;
 height: 70px;
 left: 79px;
 top: 447px;
-background: #5F6D79;
+
 }
 
 .jazmyne {
@@ -1515,7 +1525,7 @@ width: 12px;
 height: 12px;
 left: 222px;
 top: 456.2px;
-background: #FFC700;
+
 
 }
 
@@ -1661,7 +1671,7 @@ background: #FFC700;
     height: 12px;
     left: 162px;
     top: 307px;
-    background: #FFC700;
+    
     z-index: 1;     
 }
 
